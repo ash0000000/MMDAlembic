@@ -1,0 +1,8 @@
+﻿; proxydll.def : DLL のモジュール パラメーターを宣言します。
+
+LIBRARY d3d9
+
+EXPORTS
+    ; 明示的なエクスポートはここへ記述できます
+    DirectSoundCreate @1
+    Direct3DCreate9 @4
